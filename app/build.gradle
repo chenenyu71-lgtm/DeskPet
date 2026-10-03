@@ -1,0 +1,37 @@
+插件{
+身份标识'com.android.application'
+身份标识'org.jetbrains.kotlin.android'
+}
+
+安卓{
+命名空间'com.example.deskpet'
+compileSdk35
+
+DefaultConfig{
+ApplicationID"com.example.desktop"
+minSdk26
+targetSdk35
+版本代码1
+VersionName"1.0"
+    }
+
+buildTypes{
+发布{
+minifyEnabled假的
+        }
+    }
+
+compileOptions{
+sourceCompatibility JavaVersion。版本_17
+targetCompatibility JavaVersion。版本_17
+    }
+
+kotlinOptions{
+jvmTarget='17'
+    }
+}
+
+依赖关系{
+实施'androidx.core:core-ktx:1.13.1'
+实施'androidx.appcompat:appcompat:1.7.0'
+}

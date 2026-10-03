@@ -1,0 +1,16 @@
+pluginManagement{
+存储库{
+谷歌()
+MavenCentral()
+gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement{
+repositoryMode。设置(RepositoriesMode.fail_ON_PROJECT_REPOS)
+存储库{
+谷歌()
+MavenCentral()
+    }
+}
+rootProject。姓名="DeskPet"
+包括'：app'

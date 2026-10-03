@@ -1,0 +1,28 @@
+<？XML版本="1.0"编码="utf-8"？>
+<表明xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission安卓：名称="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission安卓：名称="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission安卓：名称="安卓。许可。前景服务特殊使用"/>
+    <uses-permission安卓：名称="android.permission.POST_NOTIFICATIONS"/>
+
+    <应用
+        Android:allowBackup="真"
+        安卓：标签="桌宠"
+        安卓：主题="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <活动
+            安卓：名称=".MainActivity"
+            安卓：已导出="真">
+            <意图过滤器>
+                <行动Android：名称="android.intent.action.MAIN"/>
+                <类别安卓：名称="安卓。意图。类别。发射器"/>
+            </意图过滤器>
+        </活动>
+
+        <服务
+            安卓：名称=".PetService"
+            安卓：已导出="假"
+            安卓：前台服务类型="specialUse" />
+    </应用>
+    <表明>
